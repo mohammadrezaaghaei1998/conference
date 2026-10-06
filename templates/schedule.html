@@ -1,0 +1,341 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- Page Header Start -->
+    <div class="page-header">      
+      <div class="container"> 
+        <div class="page-header-inner">         
+          <ol class="breadcrumb wow fadeInDown" data-wow-delay="300ms">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="page">Schedule</li>
+          </ol>
+          <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
+            Schedule
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End-->
+
+    <!-- Schedule Section Start -->
+      <section id="schedule" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Schedule</h2>
+                <p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <!-- Schedule Main board Start-->
+                <div class="main-board wow fadeInDown" data-wow-delay="0.3s">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs day" role="tablist">
+                    <li role="presentation" class="active"><a href="#day1" aria-controls="day1" role="tab" data-toggle="tab">28 OCT <br> <span>DAY 01</span></a></li>
+                    <li role="presentation"><a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">29 OCT <br> <span>DAY 02</span> </a></li>
+                    <li role="presentation"><a href="#day3" aria-controls="day3" role="tab" data-toggle="tab">30 OCT <br> <span>DAY 03</span></a></li>
+                    <li role="presentation"><a href="#day4" aria-controls="day4" role="tab" data-toggle="tab">31 OCT <br> <span>DAY 04</span></a></li>
+                  </ul>
+
+                  <!-- Tab content Start -->
+                  <div class="tab-content">
+                    <!-- Day 1 Start -->
+                    <div role="tabpanel" class="tab-pane active" id="day1">
+                      <div class="row">
+                        <div class="col-md-12 board text-center">
+                          <div class="column-1 col-md-4 col-sm-5">
+                            <ul class="nav nav-pills event-time-list">
+                              <li><a href="#">Time</a>
+                                <ul>
+                                  <li class="color-1"><a href="#">8am - 12 pm</a></li>
+                                  <li class="color-2"><a href="#">12pm - 1 pm</a></li>
+                                  <li class="color-3"><a href="#">1pm - 1.30 pm</a></li>
+                                  <li class="color-4"><a href="#">2pm - 3 pm</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6">                            
+                            <div class="member stephen"> 
+                            <div class="button">
+                              <a href="#" class="btn-large bg-1"><img src="{% static 'assets/img/microphone.png' %}" alt=""> Dr. Chaham</a>
+                            </div>                             
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>                            
+                            <div class="member jeson">      
+                            <div class="button">
+                              <a href="#" class="btn-large bg-2"><img src="{% static 'assets/img/microphone.png' %}" alt=""> Dr. Ibrahim</a>
+                            </div>                        
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                          </div>
+                          <!-- <div class="col-md-1 col-sm-1">
+                            <div class="coffee">
+                              <div class="coffee-icon">
+                                <img src="{% static 'assets/img/coffee-cup.png' %}" alt="">
+                              </div>
+                              <p>
+                                C <br> O <br> F <br> F <br>E <br>E <br> <br> B <br> R <br> E <br> A <br> K
+                              </p>
+                            </div>
+                          </div> -->
+                          <div class="col-md-4 col-sm-12">
+                            <div class="member jon">
+                              <div class="button">
+                                <a href="#" class="btn-large bg-3"><img src="{% static 'assets/img/microphone.png' %}" alt=""> Feysal Albalushi</a>
+                              </div>
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                          </div>
+                        </div>                     
+                      </div>
+                    </div>
+                      <!-- Day 1 End -->
+
+                    <!-- Day 2 Start -->
+                    <div role="tabpanel" class="tab-pane" id="day2">
+                      <div class="row">
+                        <div class="col-md-12 board text-center">
+                          <div class="column-1 col-md-4 col-sm-5">
+                            <ul class="nav nav-pills event-time-list">
+                              <li><a href="#">Time</a>
+                                <ul>
+                                  <li class="color-1"><a href="#">10am - 12pm</a></li>
+                                  <li class="color-2"><a href="#">12pm - 2pm</a></li>
+                                  <li class="color-3"><a href="#">2pm - 3pm</a></li>
+                                  <li class="color-4"><a href="#">3pm - 5pm</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6">                            
+                            <div class="member stephen"> 
+                            <div class="button">
+                              <a href="#" class="btn-large bg-1"><img src="{% static 'assets/img/microphone.png' %}" alt="">Bushra Ahsani</a>
+                            </div>                             
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>                            
+                            <div class="member jeson">      
+                            <div class="button">
+                              <a href="#" class="btn-large bg-2"><img src="{% static 'assets/img/microphone.png' %}" alt="">John Berry</a>
+                            </div>                        
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>
+                          </div>
+                          <!-- <div class="col-md-1 col-sm-1">
+                            <div class="coffee">
+                              <div class="coffee-icon">
+                                <img src="{% static 'assets/img/coffee-cup.png' %}" alt="">
+                              </div>
+                              <p>
+                                C <br> O <br> F <br> F <br>E <br>E <br> <br> B <br> R <br> E <br> A <br> K
+                              </p>
+                            </div>
+                          </div> -->
+                          <div class="col-md-4 col-sm-12">
+                            <div class="member jon">
+                              <div class="button">
+                                <a href="#" class="btn-large bg-3"><img src="{% static 'assets/img/microphone.png' %}" alt="">Martin Jones</a>
+                              </div>
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>
+                          </div>
+                        </div>                     
+                      </div>
+                    </div>  
+                    <!-- Day 2 End -->
+
+                    <!-- Day 3 Start -->
+                    <div role="tabpanel" class="tab-pane" id="day3">
+                      <div class="row">
+                        <div class="col-md-12 board text-center">
+                          <div class="column-1 col-md-4 col-sm-5">
+                            <ul class="nav nav-pills event-time-list">
+                              <li><a href="#">Time</a>
+                                <ul>
+                                  <li class="color-1"><a href="#">8am - 12 pm</a></li>
+                                  <li class="color-2"><a href="#">12pm - 1 pm</a></li>
+                                  <li class="color-3"><a href="#">1pm - 1.30 pm</a></li>
+                                  <li class="color-4"><a href="#">2pm - 3 pm</a></li>
+                                </ul>
+                              </li>                            
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6">                            
+                            <div class="member stephen"> 
+                            <div class="button">
+                              <a href="#" class="btn-large bg-1"><img src="{% static 'assets/img/microphone.png' %}" alt="">Jon Doe</a>
+                            </div>                             
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>                            
+                            <div class="member jeson">      
+                            <div class="button">
+                              <a href="#" class="btn-large bg-2"><img src="{% static 'assets/img/microphone.png' %}" alt="">Leo Amber</a>
+                            </div>                        
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                          </div>
+                          <!-- <div class="col-md-1 col-sm-1">
+                            <div class="coffee">
+                              <div class="coffee-icon">
+                                <img src="{% static 'assets/img/coffee-cup.png' %}" alt="">
+                              </div>
+                              <p>
+                                C <br> O <br> F <br> F <br>E <br>E <br> <br> B <br> R <br> E <br> A <br> K
+                              </p>
+                            </div>
+                          </div> -->
+                          <div class="col-md-4 col-sm-12">
+                            <div class="member jon">
+                              <div class="button">
+                                <a href="#" class="btn-large bg-3"><img src="{% static 'assets/img/microphone.png' %}" alt="">Natali Aero</a>
+                              </div>
+                              <h4>Main Topic</h4>
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                              <p>Lorem ipsum dolor sit amet, consec-tetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            </div>
+                          </div>
+                        </div>                     
+                      </div>
+                    </div>  
+                    <!-- Day 3 End -->
+
+                    <!-- Day 4 Start -->
+                    <div role="tabpanel" class="tab-pane" id="day4">
+                      <div class="row">
+                        <div class="col-md-12 board text-center">
+                          <div class="column-1 col-md-4 col-sm-5">
+                            <ul class="nav nav-pills event-time-list">
+                              <li><a href="#">Time</a>
+                                <ul>
+                                  <li class="color-1"><a href="#">3pm - 5pm</a></li>
+                                  <li class="color-2"><a href="#">5pm - 7pm</a></li>
+                                  <li class="color-3"><a href="#">7pm - 7.30 pm</a></li>
+                                  <li class="color-4"><a href="#">8pm - 10pm</a></li>
+                                </ul>
+                              </li>                            
+                            </ul>
+                          </div>
+                          <div class="col-md-4 col-sm-6">                            
+                            <div class="member stephen"> 
+                            <div class="button">
+                              <a href="#" class="btn-large bg-1"><img src="{% static 'assets/img/microphone.png' %}" alt="">Julia Merry</a>
+                            </div>                             
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>                            
+                            <div class="member jeson">      
+                            <div class="button">
+                              <a href="#" class="btn-large bg-2"><img src="{% static 'assets/img/microphone.png' %}" alt="">Jeson Eva</a>
+                            </div>                        
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>
+                          </div>
+                          <!-- <div class="col-md-1 col-sm-1">
+                            <div class="coffee">
+                              <div class="coffee-icon">
+                                <img src="{% static 'assets/img/coffee-cup.png' %}" alt="">
+                              </div>
+                              <p>
+                                C <br> O <br> F <br> F <br>E <br>E <br> <br> B <br> R <br> E <br> A <br> K
+                              </p>
+                            </div>
+                          </div> -->
+                          <div class="col-md-4 col-sm-12">
+                            <div class="member jon">
+                              <div class="button">
+                                <a href="#" class="btn-large bg-3"><img src="{% static 'assets/img/microphone.png' %}" alt="">David Ramon</a>
+                              </div>
+                              <h4>Main Topic</h4>
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+
+                              <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those intereste.</p>
+                            </div>
+                          </div>
+                        </div>                     
+                      </div>
+                    </div>  
+                    <!-- Day 4 End -->
+
+                  </div>
+                  <!-- Tab content Start -->
+                </div>
+                <!-- Schedule Main board End-->
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Schedule Section End -->
+
+    <!-- Sponsors Section Start -->
+    <section id="sponsors" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Our Sponsors</h2>
+            <p class="section-subcontent wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A <br> enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#"><img src="{% static 'assets/img/sponsors/logo-01.png' %}" alt=""></a>
+            </div>            
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.2s">
+              <a href="#"><img src="{% static 'assets/img/sponsors/logo-02.png' %}" alt=""></a>
+            </div>            
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.3s">
+              <a href="#"><img src="{% static 'assets/img/sponsors/logo-03.png' %}" alt=""></a>
+            </div>            
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="spnsors-logo wow fadeInUp" data-wow-delay="0.4s">
+              <a href="#"><img src="{% static 'assets/img/sponsors/logo-04.png' %}" alt=""></a>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Schedule Section End -->
+
+    <!-- Intro Section Start -->
+    <section id="intro" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-12">
+            <div class="content-text">
+              <h2>ARE YOU READY TO MANAGE YOUR OWN EVENTS?</h2>
+              <p class="text">All of our virtual professionals are highly experienced in the areas in which they work and have been through a thorough recruitment process.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-right">
+            <a href="{% url 'registration' %}" class="btn-cta btn btn-common"><i class="icon-control-play"></i> Sign Up Today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Intro Section End -->
+
+   {% endblock content %}

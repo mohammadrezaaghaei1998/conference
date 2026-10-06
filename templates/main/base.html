@@ -1,0 +1,102 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>NCCAE  | 2018</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.min.css' %}" >    
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/responsive.css' %}">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/fonts/font-awesome.min.css' %}">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/fonts/simple-line-icons.css' %}"> 
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/slicknav.css' %}">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/nivo-lightbox.css' %}" > 
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.carousel.css' %}">   
+    
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/colors/default.css' %}" media="screen" /> 
+
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/committee.css' %}" media="screen" />
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/registration.css' %}" media="screen" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+   
+  </head>
+  <body>
+
+
+
+
+    
+      <!-- Start header -->
+      {% include 'partials/header.html' %}
+      <!-- End header -->
+
+        {% block content %}
+
+        {% endblock content %}
+
+        <!-- Start Footer -->
+      {% include 'partials/footer.html' %}
+      <!-- End Footer -->
+
+
+
+
+
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    <i class="icon-arrow-up"></i>
+    </a>
+
+     
+
+    <!-- jQuery Load -->    
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <!-- Bootstrap JS -->
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <!-- Countdown Js -->
+    <script src="{% static 'assets/js/jquery.countdown.min.js' %}"></script>
+    <!-- Smooth scroll JS -->   
+    <script src="{% static 'assets/js/smooth-scroll.js' %}"></script>        
+    <!-- Wow Scroll -->
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <!-- Owl carousel -->
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+    <!-- Slicknav js -->
+    <script src="{% static 'assets/js/jquery.slicknav.js' %}"></script>
+    <!--  Nivo lightbox Js -->
+    <script src="{% static 'assets/js/nivo-lightbox.js' %}"></script>   
+    <!-- Contact Form Scripts -->
+    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>  
+    <script src="{% static 'assets/js/contact-form-script.js' %}"></script>    
+ 
+    <!-- All Js plugin -->
+    <script src="{% static 'assets/js/main.js' %}"></script> 
+    <!-- Map JS -->
+    <script type="text/javascript" src="{% static 'assets/js/jquery.mapit.min.js' %}"></script>
+    <script src="{% static 'assets/js/initializers.js' %}"></script>
+
+
+    
+    
+  </body>
+</html>

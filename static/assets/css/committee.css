@@ -1,0 +1,183 @@
+ .committee-section {
+        padding: 80px 15px;
+        background: #f7f7f7;
+    }
+
+    .committee-title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .committee-title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .committee-title p {
+        color: #777;
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       COMMITTEE CARD
+    ========================= */
+
+    .committee-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 25px 20px;
+        text-align: center;
+        height: 100%;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+    }
+
+    .committee-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+
+    .committee-photo {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+
+    .committee-name {
+        font-size: 17px;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 5px;
+    }
+
+
+    .committee-position {
+        font-size: 13px;
+        color: #888;
+        line-height: 1.4;
+    }
+
+
+    /* =========================
+       TOP PERSON
+    ========================= */
+
+    .committee-top {
+        max-width: 260px;
+        margin: 0 auto 60px;
+    }
+
+
+    .committee-top .committee-card {
+        padding: 30px 20px;
+    }
+
+
+    .committee-top .committee-photo {
+        width: 110px;
+        height: 110px;
+    }
+
+
+    .committee-top .committee-name {
+        font-size: 20px;
+    }
+
+
+    /* =========================
+       LEVEL TITLE
+    ========================= */
+
+    .committee-level {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .committee-level h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+    /* =========================
+       COMMITTEE GROUP
+    ========================= */
+
+    .committee-group {
+        margin-bottom: 60px;
+    }
+
+
+    /* =========================
+       DESKTOP
+    ========================= */
+
+    .committee-members {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+
+    /* =========================
+       TABLET
+    ========================= */
+
+    @media (max-width: 991px) {
+
+        .committee-section {
+            padding: 60px 15px;
+        }
+
+        .committee-members {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+    }
+
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 575px) {
+
+        .committee-section {
+            padding: 45px 15px;
+        }
+
+        .committee-title {
+            margin-bottom: 40px;
+        }
+
+        .committee-title h2 {
+            font-size: 26px;
+        }
+
+        .committee-top {
+            margin-bottom: 45px;
+        }
+
+        .committee-members {
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .committee-card {
+            padding: 20px 15px;
+        }
+
+        .committee-photo {
+            width: 75px;
+            height: 75px;
+        }
+
+    }

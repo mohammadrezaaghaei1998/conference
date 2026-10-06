@@ -1,0 +1,116 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- Page Header Start -->
+    <div class="page-header">      
+      <div class="container"> 
+        <div class="page-header-inner">         
+          <ol class="breadcrumb wow fadeInDown" data-wow-delay="300ms">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="page">About Us</li>
+          </ol>
+          <h1 class="page-title wow fadeInRight" data-wow-delay="300ms">
+            About Us
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End-->    
+    
+    <!-- About Section Start -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">About This Event</h2>
+              <div class="col-md-4 col-sm-6">
+                <div class="service-block wow fadeInDown" data-wow-delay="0.1s">
+                  <div class="img-wrap">
+                    <img src="{% static 'assets/img/feature/img-1.jpg' %}" alt="">
+                  </div>
+                  <div class="descr">
+                    <h4>Why we are doing this?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                    <a href="#" class="btn btn-common btn-small">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="service-block wow fadeInDown" data-wow-delay="0.2s">
+                  <div class="img-wrap">
+                    <img src="{% static 'assets/img/feature/img-2.jpg' %}" alt="">
+                  </div>
+                  <div class="descr">
+                    <h4>What you will learn?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                    <a href="#" class="btn btn-common btn-small">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="service-block wow fadeInDown" data-wow-delay="0.3s">
+                  <div class="img-wrap">
+                    <img src="{% static 'assets/img/feature/img-3.jpg' %}" alt="">
+                  </div>
+                  <div class="descr">
+                    <h4>What are the benifits?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                    <a href="#" class="btn btn-common btn-small">Read More</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Featured Section Start -->
+    <section id="featured" class="section gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">Our Feature</h2>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.1s">
+                  <div class="icon">
+                    <i class="icon-event"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4>Issues</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="icon">
+                    <i class="icon-clock"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4>Maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="featured-box wow fadeInLeft" data-wow-delay="0.3s">
+                  <div class="icon">
+                    <i class="icon-compass"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4>Destination</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Aenean commodo ligula eget dolor.  Aenean massa.  Cum sociis natoque </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section End -->
+
+   
+
+{% endblock content %}
